@@ -66,10 +66,13 @@ html {
     background-color: #388E3C;
     border: 1px solid green;
     border-radius: 7px;
-
 }
-
-.connection-button #button-1:hover {
+.connection-button #button-1 a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.connection-button #button-1 a:hover {
     color: black;
     font-weight: bold;
 }
@@ -204,9 +207,14 @@ html {
     background-color: #28672b;
     color: white;
 }
-
-.management-box .card-body button:hover {
+.management-box .card-body button a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.management-box .card-body button a:hover {
     color: black;
+    font-size: bolder;
 }
 
 /* This is for about us  */

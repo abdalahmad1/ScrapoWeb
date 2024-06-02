@@ -72,7 +72,7 @@ html {
     font-size: 1rem;
     margin: 1rem 1.5rem;
 }
-#management .second-heading{
+#management #second-heading{
     font-size: 3.5rem;
     background-color: #d1f3d2;
     margin: 6rem 2rem;
@@ -91,6 +91,7 @@ html {
     border-radius: 3rem;
     padding: 1rem 1rem;
     display: flex;
+    cursor: pointer;
 }
 #management .management-img img{
     width: 60px;
